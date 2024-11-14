@@ -1,0 +1,24 @@
+
+body{
+    background-color: aqua;
+    }
+
+#div{
+
+    padding: 10px 10px;
+    background-color:yellow;
+    border-color:black ;
+    border-style: dashed;
+    width: 500px;
+    height: 500px;
+}
+
+#span{
+    padding: 10px 10px;
+    background-color:green;
+    border-color:black ;
+    border-style: dashed;
+    width: 250px;
+    height: 250px;
+}
+

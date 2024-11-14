@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replica of Pet-Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="d-flex flex-column ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Petfinder</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto d-flex">
+          <li class="nav-item">
+            <a class="nav-link  " href="contact.html">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Log In</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="d-flex navbar-dark bg-dark">
+      <ul class=" navbar-dark bg-dark d-flex flex-grow-1 justify-content-center "> 
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-expanded="false">Adopted Or Involved</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">About Petfinder</a></li>
+            <li><a class="dropdown-item" href="#">About Pets</a></li>
+            <li><a class="dropdown-item" href="#">Animal Shelter and Rescues</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Petfinder Foundation</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-expanded="false">Dogs and Puppies</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Dog Adoption</a></li>
+            <li><a class="dropdown-item" href="#">Dog Breed</a></li>
+            <li><a class="dropdown-item" href="#">Dog Health and Wellness</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-expanded="false">Cats and Kittens</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Cat Adoption</a></li>
+            <li><a class="dropdown-item" href="#">Cat Breed</a></li>
+            <li><a class="dropdown-item" href="#">Cat Health and Wellness</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Cat Training</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Other Types of Pets</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Birds</a></li>
+            <li><a class="dropdown-item" href="#">Rabbits</a></li>
+            <li><a class="dropdown-item" href="#">Lions</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class=" Search container-fluid  text-white py-5 text-center " >
+    
+    <h1>Find Your New Best Friend</h1>
+    <p>Search for adoptable pets near you</p>
+    <form action="#" method="GET">
+      <div class="form-row justify-content-center">
+        <div class="col-md-4">
+          <input type="text" class="form-control" placeholder="Search by pet type, breed, or location" required>
+        </div>
+        <div class="col-md-2">
+          <button type="submit" class="btn btn-dark btn-block">Search</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="container py-5">
+    <h2 class="text-center mb-4">Available Pets for Adoption</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="dog photos/blob.jpg" class="card-img-top" alt="Pet image">
+          <div class="card-body">
+            <h5 class="card-title">Pet Name</h5>
+            <p class="card-text">Breed: Labrador Retriever</p>
+            <p class="card-text">Age: 3 years</p>
+            <a href="#" class="btn btn-primary">Adopt Me</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="dog photos/OIP.jpg" class="card-img-top" alt="Pet image">
+          <div class="card-body">
+            <h5 class="card-title">Pet Name</h5>
+            <p class="card-text">Breed: Beagle</p>
+            <p class="card-text">Age: 2 years</p>
+            <a href="#" class="btn btn-primary">Adopt Me</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="dog photos/download.jpg" class="card-img-top" alt="Pet image">
+          <div class="card-body">
+            <h5 class="card-title">Pet Name</h5>
+            <p class="card-text">Breed: Beagle</p>
+            <p class="card-text">Age: 2 years</p>
+            <a href="#" class="btn btn-primary">Adopt Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; Mohd Tausif Siddiqui</p>
+      <p>Follow us on:
+        <a href="#" class="text-white ml-2">Facebook</a> |
+        <a href="#" class="text-white ml-2">Twitter</a> |
+        <a href="#" class="text-white ml-2">Instagram</a>
+      </p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+</body>
+</html>

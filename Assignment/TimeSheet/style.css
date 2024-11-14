@@ -1,0 +1,22 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+   flex-direction: column;
+}
+
+.navbarer{
+   display:flex;
+   justify-content: flex-end;
+
+}
+.main {
+    display: flex;
+    flex-direction: row;  
+    
+  
+}
+
+.main > div {
+   
+    flex-grow: 1; 
+}

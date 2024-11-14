@@ -1,0 +1,14 @@
+ul {
+    list-style: none;
+  }
+
+.Search{
+    background-color:black ;
+    background-image: url("https://tse4.mm.bing.net/th/id/OIP.f7kEeZOYH-KLw2fQJN_jMQHaC-?rs=1&pid=ImgDetMain");
+   
+    width: 100%;
+    height: 50vh;
+    background-size: 100%;
+
+    background-position: center;
+}

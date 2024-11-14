@@ -1,0 +1,32 @@
+.game-container{
+    display: flex;
+    height: auto;
+    width: auto;
+    justify-content:space-evenly;
+    padding: 10px;
+    border-style: solid;
+}
+
+.childdiv{
+    padding: 10px;
+    
+    border-style: solid;
+}
+
+.win{
+    padding: 10px;
+    background-color:green;
+    border-style: solid;
+}
+
+.smaller{
+    padding: 10px;
+    background-color: yellow;
+    border-style: solid;
+}
+
+.greater{
+    padding: 10px;
+    background-color:red;
+    border-style: solid;
+}

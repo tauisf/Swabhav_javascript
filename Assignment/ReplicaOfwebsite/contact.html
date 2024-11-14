@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts Us</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">Petfinder</a>
+        </nav>
+    </div>
+    <div class="wrapper">
+        <form class="form">
+          <div class="pageTitle title">Sign Up </div>
+          <div class="secondaryTitle title">Please fill this form to sign up.</div>
+          <input type="text" class="name formEntry" placeholder="Name" />
+          <input type="text" class="email formEntry" placeholder="Email"/>
+          <textarea class="message formEntry" placeholder="Message"></textarea>
+          <input type="checkbox" class="termsConditions" value="Term">
+          <label style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Terms of Use</span> & <span style="color: #0e3721">Privacy Policy</span>.</label><br>
+          <button class="submit formEntry" onclick="thanks()">Submit</button>
+        </form>
+      </div>
+</body>
+</html>
